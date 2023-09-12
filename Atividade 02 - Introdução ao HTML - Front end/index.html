@@ -18,36 +18,47 @@
         <h1>Compreendendo o CSS e seu papel no desenvolvimento web</h1>
         <h3>1. O que é o CSS e qual é o seu papel no desenvolvimento web? Como o CSS ajuda a separar a
             apresentação visual do conteúdo estrutural em uma página web?</h3>
-        <p></p>
+        <p>R: O CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para definir a
+            apresentação e o design de páginas web. É a ferramenta essencial para controlar o layout, as cores, as fontes e outros aspectos
+            visuais de um site. </p>
         <h3>2. Além do HTML, quais outras tecnologias frequentemente trabalham em conjunto com o CSS para
             melhorar a experiência do usuário em um site? Como essa integração afeta a usabilidade e a
             estilização das páginas?</h3>
-        <p></p>
+        <p>R: Além do HTML, outras tecnologias que frequentemente trabalham com o CSS para melhorar a experiência do usuário incluem JavaScript para interatividade, frameworks CSS para estilização consistente, media queries para layouts responsivos e fontes da web para melhorar a tipografia. Essa integração afeta a usabilidade ao permitir interatividade e layouts responsivos, enquanto melhora a estilização com controle detalhado sobre elementos de design, como cores, tipografia e posicionamento. Isso resulta em sites mais atraentes, funcionais e adaptados a diferentes dispositivos e tamanhos de tela.</p>
     </section>
     <section>
         <h1>Identificando a estrutura de uma regra CSS</h1>
         <h3>1. Descreva os três componentes principais de uma regra CSS: seletor, propriedades e valores. Dê um
             exemplo de uma regra CSS completa.</h3>
-        <p>R: </p>
+        <p>R: Seletor: O seletor é usado para selecionar os elementos HTML aos quais a regra CSS será aplicada. Pode ser um elemento HTML específico, uma classe, um ID ou até mesmo um pseudo-elemento.  </p>
+        <p>Propriedades: As propriedades definem quais aspectos do elemento selecionado serão estilizados. </p>
+        <p>Valores: Os valores são atribuídos às propriedades e especificam como o elemento deve ser estilizado em relação à propriedade.</p>
+        <p>Exemplo de uma regra CSS completa:</p>
+        <pre>h1 {
+color: blue; 
+font-size: 24px;
+margin-bottom: 10px;
+text-align: center;
+}</pre>
         <h3>2. Como as regras CSS são interpretadas pelos navegadores? Como o navegador determina qual estilo
             aplicar a um elemento específico com base nas regras CSS?</h3>
-        <p>R: </p>
+        <p>R:As regras CSS são interpretadas pelos navegadores através da seleção de elementos que coincidem com os seletores especificados, seguindo a ordem de cascata para determinar qual estilo aplicar a um elemento específico. </p>
     </section>
     <section>
         <h1>Aplicando estilos básicos usando seletores</h1>
         <h3>1. Explique a diferença entre seletores de tipo, classe e ID no CSS. Quando você usaria um seletor de
             classe em vez de um seletor de ID?</h3>
-        <p>R: </p>
+        <p>R: Os seletores de tipo selecionam todos os elementos de um tipo, como parágrafos. Os seletores de classe, identificados por um ponto, aplicam estilos a elementos com a mesma classe, permitindo a reutilização. Os seletores de ID, indicados por um hash, são altamente específicos, aplicando estilos a um elemento único na página. Prefira seletores de classe para estilos reutilizáveis e seletores de ID para elementos exclusivos. </p>
         <h3>2. Além dos seletores básicos, como os seletores de pseudo-elementos podem ser usados para
             estilizar partes específicas de um elemento HTML? Dê exemplos.</h3>
-        <p>R: </p>
+        <p>R: Os seletores de pseudo-elementos são usados para estilizar partes específicas de um elemento HTML. Por exemplo, ::before e ::after permitem adicionar conteúdo antes e depois do conteúdo de um elemento, e ::first-line e ::first-letter são usados para estilizar a primeira linha e a primeira letra de um elemento de texto, respectivamente. Por exemplo, p::first-line pode ser usado para estilizar a primeira linha de um parágrafo, como alterar a cor ou o tamanho do texto. </p>
     </section>
     <section>
         <h1>Controlando tamanho e posicionamento com box model</h1>
         <h3>1. O que é o modelo de caixa (box model) no CSS? Descreva as partes principais do modelo de caixa e
             como as propriedades de margem, borda e preenchimento (margin, border e padding) afetam o
             tamanho de um elemento.</h3>
-        <p>R: </p>
+        <p>R: O modelo de caixa no CSS é como um elemento HTML é organizado.Um elemento tem quatro partes: a coisa que está dentro dele (conteúdo), o espaço extra dentro dele (preenchimento), a linha ao redor dele (borda) e o espaço fora dele (margem). Mexendo na margem, na borda e no preenchimento, você consegue controlar o tamanho e o espaço dos elementos na página. É como arrumar coisas em uma prateleira, você define o espaço entre elas e como elas são cercadas.  </p>
         <h3>2. Como você pode usar o modelo de caixa para controlar o espaçamento entre elementos em uma
             página? Dê exemplos de situações em que ajustar as margens, bordas e preenchimentos seria útil.</h3>
         <p>R: </p>
