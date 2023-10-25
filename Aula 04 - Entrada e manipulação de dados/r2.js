@@ -1,5 +1,7 @@
-// Questão 2 
+document.getElementById("questao2").addEventListener("click", function() {
 
+
+});
 let string = "123";
 console.log(typeof Number(string))
 
